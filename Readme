@@ -1,0 +1,5 @@
+Creating the Frontend-Application:
+got to the path: cd path
+verify npm and node existing or not.
+
+run: npx create-react-app frontend
