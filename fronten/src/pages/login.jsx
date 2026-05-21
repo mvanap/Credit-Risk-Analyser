@@ -32,6 +32,10 @@ function Login() {
                 <button className="login-button">
                     Login
                 </button>
+
+                <button className="register-button">
+                    Register here...
+                </button>
             </div>
         </div>
     )
