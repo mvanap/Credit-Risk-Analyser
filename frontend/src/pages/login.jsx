@@ -1,8 +1,11 @@
 import { useState } from "react";
+import { useNavigate, useLocation } from "react-router-dom";
 import "../styles/login.css"
 
 function Login() {
     const [showPassword, setShowPassword] = useState(false);
+    const navigate = useNavigate();
+    const location = useLocation();
     return (
         <div className="login-container">
             <div className="login-component">
@@ -33,8 +36,11 @@ function Login() {
                     Login
                 </button>
 
-                <button className="register-button">
-                    Register here...
+                <button 
+                className="signup-button"
+                onClick={() => navigate("/signup")}
+                >
+                    Sign Up
                 </button>
             </div>
         </div>

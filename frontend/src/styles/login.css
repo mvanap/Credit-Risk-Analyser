@@ -59,6 +59,9 @@ body {
     border-radius: 10px;
     display: block;
     cursor: pointer;
-
     border : 3px solid black;
+}
+
+.login-button:hover {
+    background-color: black;
 }
