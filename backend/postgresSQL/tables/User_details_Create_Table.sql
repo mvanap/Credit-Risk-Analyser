@@ -1,7 +1,18 @@
-Create Table User_Details(
-user_id SERIAL PRIMARY KEY,
-username varchar(100) NOT NULL,
-email varchar(255) UNIQUE NOT NULL,
-password varchar(255) NOT NULL,
-created_at TIMESTAMP Default CURRENT_TIMESTAMP
+CREATE TABLE user_login_credentials (
+
+    id SERIAL PRIMARY KEY,
+
+    first_name VARCHAR(100),
+
+    last_name VARCHAR(100),
+
+    middle_name VARCHAR(100),
+
+    email VARCHAR(150) UNIQUE,
+
+    username VARCHAR(100) UNIQUE,
+
+    password VARCHAR(200),
+
+    phone VARCHAR(20)
 );

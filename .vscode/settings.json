@@ -1,0 +1,25 @@
+{
+    "sqltools.connections": [
+        {
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "Local PostgreSQL",
+            "username": "postgres",
+            "database": "cra_db"
+        },
+        {
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "cra_dev_user",
+            "database": "cra_dev",
+            "username": "cra_dev_user"
+        }
+    ],
+    "python-envs.defaultEnvManager": "ms-python.python:venv"
+}
